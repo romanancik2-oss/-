@@ -19,3 +19,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
+
+tr:nth-last-child(1) {
+    background-color: blueviolet;
+}
