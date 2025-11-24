@@ -1,88 +1,50 @@
 body {
-    background-color: lightblue;
+    background-color: bisque;
 }
 
 h1 {
-    color: blue;
-    font-size: 24px;
-    text-align: center;
-    padding: 70px;
+    font-size: 20px;
+    color: blueviolet;
 }
 
 h2 {
-    color: blue;
-    font-size: 28px;
-    margin: 35px;
+    font-size: 16px;
 }
 
-p {
-    color: black;
-    font-size: 20px;
-    margin: 35px;
+li {
+    margin: 20px;
 }
 
-h3 {
-    color: blue;
-    font-size: 28px;
-    margin: 35px;
-}
-
-ul {
-    color: black;
-    font-size: 20px;
-    margin: 35px;
-}
-
-h4 {
-    color: blue;
-    font-size: 28px;
-    margin: 35px;
-}
-
-ol {
-    color: black;
-    font-size: 20px;
-    margin: 35px;
-}
-
-h5 {
-    color: blue;
-    font-size: 28px;
-    margin: 35px;
-}
-
-a {
-    color: black;
-    font-size: 20px;
-    margin: 35px;
+ol, ul {
+    padding: 10px;
 }
 
 .content {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 10px;
-    background: local;
 }
 
 .content-left {
-    float: left;
-    background-color: aqua;
+    padding: 20px;
+    border: 1px solid black;
+    width: 70%;
+    background: blue;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .content-right {
-    flex-direction: column;
-    background-color: darkgrey;
-    border-radius: 5%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    margin-top: 10%;
-    margin-left: 50%;
-    margin-right: 10%;
+    padding: 20px;
+    border: 1px solid white;
+    width: 20%;
+    background: grey;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-img {
-    padding: 10px 50px 10px 10px;
-    margin: 1px 1px 1px 1px;
+.cat {
+    width: 300px;
+    height: 300px;
 }
